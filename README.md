@@ -10,6 +10,7 @@
 </div>
 
 <div align="center">
+  <a href="https://vidita14.github.io/deepintel/">Live Website</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="docs/USAGE.md">Usage Guide</a> ·
   <a href="#evaluation">Evaluation</a> ·
@@ -19,12 +20,14 @@
 ---
 
 <p align="center">
-  <img src="website/assets/product/dashboard.png" alt="DeepIntel analyst dashboard showing a URL verdict, risk score, and readable reasons" width="650">
-  <img src="website/assets/product/extension.png" alt="DeepIntel Chrome extension showing a URL verdict and correction controls" width="240">
+  <a href="https://vidita14.github.io/deepintel/">
+    <img src="website/assets/product/dashboard.png" alt="DeepIntel analyst dashboard showing a URL verdict, risk score, and readable reasons" width="520">
+  </a>
 </p>
 
 <p align="center">
-  <a href="website/assets/product/product-promo.mp4">Open the product walkthrough (MP4)</a>
+  <a href="website/assets/product/product-promo.mp4">Watch the product walkthrough</a> ·
+  <a href="website/assets/product/extension.png">View the extension screenshot</a>
 </p>
 
 ## Why DeepIntel?
@@ -44,7 +47,7 @@ If you are prototyping link screening or studying URL-classification decisions, 
 Requirements: Python 3.12, pip, and Chrome if you want to use the extension. A fresh clone has no trained model artifacts, so create the label encoder and train once before starting the API.
 
 ```bash
-git clone https://github.com/Vishwa-Koparkar/deepintel.git
+git clone https://github.com/vidita14/deepintel.git
 cd deepintel
 python3.12 -m venv venv
 source venv/bin/activate
@@ -127,7 +130,7 @@ The scheduler checks for updates every 24 hours. Retraining rebuilds the feature
 
 ## Project showcase
 
-The static overview and interactive walkthrough live in [`website/`](website/index.html). It can be previewed locally with `python3 -m http.server 4173 --directory website`; see the [hosting notes](docs/DEPLOYMENT.md) for the deployment plan.
+Visit the [live website](https://vidita14.github.io/deepintel/) for the product overview, interactive evidence walkthrough, and on-device dashboard. The landing-page source lives in [`website/`](website/index.html); see the [hosting notes](docs/HOSTING.md) for the GitHub Pages setup.
 
 ## Contributing
 
