@@ -23,10 +23,7 @@
   <img src="website/assets/product/extension.png" alt="DeepIntel Chrome extension showing a URL verdict and correction controls" width="240">
 </p>
 
-<p align="center"><em>Actual product UI captured with fixed synthetic responses; the film does not show live model inference.</em></p>
-
 <p align="center">
-  <a href="website/assets/product/product-promo.mp4"><img src="website/assets/product/product-poster.jpg" alt="Open the DeepIntel product walkthrough video" width="720"></a><br>
   <a href="website/assets/product/product-promo.mp4">Open the product walkthrough (MP4)</a>
 </p>
 
