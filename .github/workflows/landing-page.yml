@@ -24,12 +24,14 @@ jobs:
         with:
           node-version: '22'
       - name: Check walkthrough
-        run: node website/app.test.cjs
+        run: |
+          node website/app.test.cjs
+          node website/landing-motion.test.cjs
       - uses: actions/configure-pages@v5
       - name: Prepare public files
         run: |
           mkdir -p /tmp/deepintel-public
-          cp website/index.html website/style.css website/app.js /tmp/deepintel-public/
+          cp website/index.html website/style.css website/app.js website/landing-motion.js /tmp/deepintel-public/
           cp -R website/assets /tmp/deepintel-public/assets
           cp dashboard.html /tmp/deepintel-public/dashboard.html
           mkdir -p /tmp/deepintel-public/browser-prototype/runtime

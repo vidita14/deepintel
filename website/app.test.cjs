@@ -20,6 +20,13 @@ const html = fs.readFileSync(`${__dirname}/index.html`, 'utf8');
 assert.doesNotMatch(html, /href=["']https:\/\/github\.com\/Vishwa-Koparkar\/?["']/);
 assert.doesNotMatch(html, /(?:by Vishwa Koparkar|A PROJECT BY VISHWA|Meet the builder)/i);
 for (const [, asset] of html.matchAll(/(?:src|href)="([^"#][^"]*)"/g)) {
-  if (!/^[a-z]+:/i.test(asset)) assert.ok(fs.existsSync(path.join(__dirname, asset)), `Missing public asset: ${asset}`);
+  if (!/^[a-z]+:/i.test(asset)) assert.ok(fs.existsSync(path.join(asset === './dashboard.html' ? `${__dirname}/..` : __dirname, asset)), `Missing public asset: ${asset}`);
 }
+
+assert.match(html, /Illustrative example · not live inference/);
+assert.ok(html.indexOf('src="app.js"') < html.indexOf('src="landing-motion.js"'), 'Evidence updates must run before their animation');
+assert.ok(html.indexOf('src="assets/vendor/anime.umd.min.js"') < html.indexOf('src="landing-motion.js"'), 'Anime.js must load before motion');
 console.log('Public page: repository-only attribution and referenced assets pass.');
+
+assert.match(html, /href="https:\/\/vidita14.github.io\/deepintel\/"/);
+assert.doesNotMatch(html, /Vishwa-Koparkar|vishwa-koparkar/);

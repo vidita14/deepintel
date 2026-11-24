@@ -15,7 +15,7 @@ The existing GitHub Pages showcase remains a static page with an illustrative wa
 1. Commit and push `website/` and `.github/workflows/landing-page.yml` to `main`.
 2. In repository **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
 3. Run **Deploy landing page** from Actions, or push a landing-page change to `main`.
-4. Use the URL returned by the deployment. The expected project URL is `https://vishwa-koparkar.github.io/deepintel/`; it is not live merely because these files exist.
+4. Use the URL returned by the deployment. The expected project URL is `https://vidita14.github.io/deepintel/`; it is not live merely because these files exist.
 5. Test the deployed page on a phone and a desktop before adding the URL to applications.
 
 The workflow tests the walkthrough and uploads only the HTML, CSS, JavaScript, and `assets/`. It does not publish datasets, local databases, model artifacts, test files, or design diagnostics. Relative asset links support the `/deepintel/` repository path and a later custom domain.

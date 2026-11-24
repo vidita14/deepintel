@@ -1,16 +1,15 @@
-Software: a project showcase for explainable URL threat detection, aimed at AI startup hiring teams, SWE reviewers, and data teams.
-Design deal: centred product UI hero, white-link-blue palette and Manrope / JetBrains Mono. White and blue give the evidence room to read; a dark engine section separates decision mechanics. The letters-assemble moment makes the engineering statement resolve on scroll. No stock photography is needed for a URL analysis product.
+Software: explainable URL threat detection for people investigating suspicious links.
+Design: forensic field report, blue-black-cornflower palette (dark inspection surface and ice-blue evidence markers), Instrument Sans variable width + DM Mono. The existing live evidence explorer requires one readable window, so the collage hero deal is adapted to a split investigation desk. Existing letters-assemble moment retained to avoid adding a redundant second effect. No stock photographs, invented claims, or new backend behavior.
 
-Voice: concrete, technical but readable. Lead with what works; attach numbers to the committed report; put limitations beside evaluation. Main action: Explore the project.
+Voice: technical, direct; URL signals, registered domains, measured errors. Preserve the illustrative-data disclosures and offline evaluation limits. Primary action: Analyze a URL on device.
 
-- Hero: category, product claim, one benchmark, and a clickable evidence walkthrough. UI visual; approximately one desktop screen.
-- Engine: explain the weighted signals and ordered adjustments. Pipeline diagram; one desktop screen.
-- Evaluation: held-out split, per-class results, and error counts. Data visual; one desktop screen.
-- Engineering: data quality, product surfaces, and retraining. Dealt type moment; one desktop screen.
-- Close: project authorship, repository and local setup links, explicit prototype status.
+- Hero: condensed three-line category heading, benchmark, enlarged lookalike URL specimen and clickable evidence explorer. One desktop screen; content grows on small screens to keep every control and explanation readable.
+- Product: existing film and actual dashboard / extension captures. Content-led height to retain readable product captures.
+- Engine: 70/15/15 signal lanes and ordered verdict adjustments. One desktop screen.
+- Evaluation: contrasting light report with metrics, class table, error counts, benchmark limitations. One desktop screen.
+- Engineering: existing letters-assemble statement, pipeline / API / retraining detail. One desktop screen.
+- Close: large inspection invitation, repository / demo actions, prototype status and footer.
 
-Scope: new static files, a Pages deployment workflow, hosting documentation, and a README pointer. No backend callers, API contracts, model fixtures, or exports need alteration. Examples explain URL signals and are explicitly illustrative; they do not manufacture model verdicts or scores.
+Motion: existing hero entrance and hover layer; local Anime.js v4 for a finite URL scan (replayable) and brief evidence changes. No infinite motion, scroll hijacking, or generic section reveals. Reduced motion keeps the finished content visible. Without scripts the original example stays readable.
 
-Hosting: GitHub Pages for the landing page; public inference is a separate hardened-service milestone. See ../docs/HOSTING.md. Files are prepared locally; no remote deployment or Git push has been performed.
-
-Follow-up: product section adds a 24-second rendered promo, actual dashboard and extension captures, and explicit synthetic-data disclosure. Hero action now goes directly to the video. Attribution points to the project repository only. The browser inference experiment lives separately in ../browser-prototype/ until full-system parity is established.
+Scope: landing HTML/CSS, local animation bundle and script/test, Pages staging, asset test's dashboard source resolution. Existing analyzer, dashboard and extension behavior untouched. Pages deployment assembles dashboard.html from the repository root. No publishing requested or performed.
